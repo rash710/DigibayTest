@@ -1,0 +1,478 @@
+<html>
+<head>
+<title>Download 64-bit (x64) utilities package for Windows</title>
+<link rel="stylesheet" href="main.css">
+
+<script type='text/javascript'>
+
+function copyTextToClipboard(text) {
+    if (window.clipboardData && window.clipboardData.setData) {
+        return clipboardData.setData("Text", text); 
+
+    } else if (document.queryCommandSupported && document.queryCommandSupported("copy")) {
+        var cliptextarea = document.createElement("textarea");
+        cliptextarea.textContent = text;
+        cliptextarea.style.position = "fixed"; 
+        document.body.appendChild(cliptextarea);
+		cliptextarea.focus();
+        cliptextarea.select();
+        try {
+            return document.execCommand("copy");  
+        } catch (ex) {
+            return false;
+        } finally {
+            document.body.removeChild(cliptextarea);
+        }
+    }
+}
+
+</script>
+
+
+
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="NirSoft" />
+<meta property="og:url" content="https://www.nirsoft.net/x64_download_package.html" />
+<link rel="canonical" href="https://www.nirsoft.net/x64_download_package.html" />
+<link rel="alternate" type="application/rss+xml" title="NirSoft Updates" href="https://feeds.feedburner.com/nirsoft/voiG">
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P2Q08WF7BK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P2Q08WF7BK');
+</script>
+
+
+
+
+
+	
+
+
+
+
+
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr>
+<td colspan="3" class="siteheader" height="50">
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr style="height:10px">
+<td>
+<td>
+
+<tr>
+<td>
+<a href="//www.nirsoft.net">
+<img src="/nirsoft2.gif" border="0">
+</a>
+
+<td>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- NirSoft Top Ad -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-5286073190998405"
+     data-ad-slot="3603023613"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+
+
+
+
+
+
+<tr style="height:10px">
+<td>
+<td>
+
+
+</table>
+
+
+
+</td>
+</tr>
+
+
+<tr>
+<td valign="top" class="siteheader" style="width:170px">
+
+<table border="0" cellpadding="3" width="100%"  style="width:170px">
+<tr class="menub1"><td nowrap><a href="//www.nirsoft.net">Main Page</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="//blog.nirsoft.net">Blog</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/search_freeware.html">Search</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/faq.html">FAQ</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/top_utilities_downloads.html">TOP 10</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/pad">Pad Files</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/contact-new.html">Contact</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/about_nirsoft_freeware.html">About...</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="https://www.nirsoft.net/donate.html" style="color:#000080">Donate</a><br>
+</td></tr>
+</table>
+
+<table border="0" cellpadding="3" width="100%">
+<tr class="menub2"><td nowrap><a href="/utils/index.html">All Utilities</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/password_recovery_tools.html">Password Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/system_tools.html">System Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/web_browser_tools.html">Browser Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/programmer_tools.html">Programmer Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/network_tools.html">Network Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/outlook_office_software.html">Outlook/Office</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/x64_download_package.html">64-bit Download</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/panel">Panel</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/computer_forensic_software.html">Forensics</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/alpha">Pre-Release Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/articles">Articles</a><br>
+</td></tr>
+
+</table>
+
+
+
+
+<p>
+
+<center>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- NirSoft Left Side -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-5286073190998405"
+     data-ad-slot="8544847776"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+
+
+
+</center>
+
+
+
+</td>
+
+<td class="menutomain">&nbsp;
+</td>
+
+<td valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="toptomain" colspan="3">
+</td>
+<tr>
+<td style="width:7px">&nbsp;</td>
+<td valign="top">
+
+
+
+<table class="title1">
+<tr><td>Download 64-bit (x64) utilities package for Windows
+</table>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style ">
+<a class="addthis_button_preferred_1"></a>
+<a class="addthis_button_preferred_2"></a>
+<a class="addthis_button_preferred_3"></a>
+<a class="addthis_button_preferred_4"></a>
+<a class="addthis_button_compact"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
+<script type="text/javascript" async="async" src="//s7.addthis.com/js/250/addthis_widget.js#pubid=nirsofer"></script>
+<!-- AddThis Button END -->
+<p>
+
+
+This package contains all utilities in NirSoft that have a separated build for 64-bit versions (x64) of Windows.
+This package contains the help file (.chm) and the x64 .exe file for every utility in the list below.
+You can download the entire package in zip file from <a href="packages/x64tools.zip">here</a>.
+The password to extract the files is <a href="" onclick="copyTextToClipboard('nirsoft123!');return false;">nirsoft123!</a> (Click the password to copy it to the clipboard)
+
+<p>
+Be aware that you can only run these .exe files on x64 version of Windows. If you try to run them on 32-bit system,
+you'll get &quot;xyz is not a valid Win32 application&quot; error message.
+
+<p>
+
+Here's the list of all 64-bit utilities that this package contains:
+
+
+
+<table cellpadding="4" border="1">
+
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/cports.html">CurrPorts</a>
+<td class="toolstitle2">
+CurrPorts displays the list of all currently opened TCP/IP and UDP ports on your local computer.
+For each port in the list, information about the process that opened the port is also displayed, 
+including the process name, full path of the process, version information of the process 
+(product name, file description, and so on), the time that the process was created, and the user that
+created it.
+<br>
+In addition, CurrPorts allows you to close unwanted TCP connections, kill the process that opened the ports, and
+save the TCP/UDP ports information to HTML file , XML file, or to tab-delimited text file.
+
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/network_password_recovery.html">Network Password Recovery</a>
+<td class="toolstitle2">
+When you connect to a network share on your LAN or to your .NET Passport account, Windows allows you to save your password in order to use it in each time that you connect the remote server. This utility recovers all network passwords stored on your system for the current logged-on user. It can also recover the passwords stored in Credentials file of external drive, as long as you know the last log-on password. 
+
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/special_folders_view.html">SpecialFoldersView</a>
+<td class="toolstitle2">
+Windows operating system have dozens of special folders that are used for storing application settings and files, storing Internet files, saving temporary files, storing shortcuts to other files, and so on. 
+This utility displays the list of all special folders in your system, and allows you to easily jump to the right folder simply by double-clicking the folder item. You can also save the list of all folder paths into text/html/xml file. 
+
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/product_cd_key_viewer.html">ProduKey</a>
+<td class="toolstitle2">
+ProduKey is a small utility that displays the ProductID and the CD-Key of MS-Office, Windows, Exchange Server, and SQL Server installed on your computer. You can view this information for your current running operating system, or for another operating system/computer. This utility can be useful if you lost the product key of your Windows/Office, and you want to reinstall it on your computer. 
+ 
+ 
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/regscanner.html">RegScanner</a>
+<td class="toolstitle2">
+RegScanner is a small utility that allows you to scan the Registry, find the desired Registry values that match to the specified search criteria, and display them in one list. After finding the Registry values, you can easily jump to the right value in RegEdit, simply by double-clicking the desired Registry item. You can also export the found Registry values into a .reg file that can be used in RegEdit. 
+
+
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/file_types_manager.html">FileTypesMan</a>
+<td class="toolstitle2">
+FileTypesMan is an alternative to the 'File Types' tab in the 'Folder Options' of Windows. It displays the list of all file extensions and types registered on your computer. For each file type, the following information is displayed: Type Name, Description, MIME Type, Perceived Type, Flags, Browser Flags, and more. 
+FileTypesMan also allows you to easily edit the properties and flags of each file type, as well as it allows you to add, edit, and remove actions in a file type. 
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/shexview.html">ShellExView</a>
+<td class="toolstitle2">
+Shell Extensions are in-process COM objects which extends the abilities of Windows operating system. Most shell extensions are automatically installed by the operating system, but there are also many other applications that install additional shell extension components. For example: If you install WinZip on your computer, you'll see a special WinZip menu when you right-click on a Zip file. This menu is created by adding a shell extension to the system. 
+The ShellExView utility displays the details of shell extensions installed on your computer, and allows you to easily disable and enable each shell extension. 
+
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/shell_menu_view.html">ShellMenuView</a>
+<td class="toolstitle2">
+ShellMenuView is a small utility that display the list of static menu items that appeared in the context menu when you right-click a file/folder on Windows Explorer, and allows you to easily disable unwanted menu items. 
+
+
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/sysexp.html">SysExporter</a>
+<td class="toolstitle2">
+SysExporter utility allows you to grab the data stored in standard list-views, tree-views, list boxes, combo boxes, text-boxes, and WebBrowser/HTML controls from
+almost any application running on your system, and export it to text, HTML or XML file.
+<br>
+Here's some examples for data that you can export with SysExporter:
+<ul>
+<li>The files list inside archive file (.zip, .rar, and so on) as displayed by WinZip or 7-Zip File Manager. 
+<li>The files list inside a folder.
+<li>The event log of Windows.
+<li>The list of emails and contacts in Outlook Express. 
+<li>The Registry values displayed in the right pane of the Registry Editor.
+<li>The data displayed by SysInternals utilities (Registry Monitor, File Monitor, Process Explorer, and others.) 
+<li>The text inside a standard message-box of Windows.
+<li>The HTML inside any instance of Internet Explorer.
+</ul> 
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/volumouse.html">Volumouse</a>
+<td class="toolstitle2">
+Volumouse provides you a quick and easy way to control the sound volume on your system - simply by rolling the wheel of your wheel mouse. 
+It allows you to define a set of rules for determining when the wheel will be used for changing the sound volume. For example: You can configure Volumouse to use your mouse wheel for volume control when the Alt key is hold down, when the left mouse button is down, when the mouse cursor is over the taskbar, and so on... 
+When the conditions that you define are not satisfied, your mouse wheel will be used for the regular scrolling tasks, exactly as before. 
+
+
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/driverview.html">DriverView</a>
+<td class="toolstitle2">
+DriverView utility displays the list of all device drivers currently loaded
+on your system. For each driver in the list, additional useful information is displayed:
+load address of the driver, description, version, product name, company that created the driver, and more. 
+
+
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/registered_dll_view.html">RegDllView</a>
+<td class="toolstitle2">
+RegDllView is a small utility that displays the list of all registered dll/ocx/exe files (COM registration).
+For each registered file, you can view the last date/time that it was registered, and the list of all 
+registration entries (CLSID/ProgID).
+<br>
+RegDllView also allows you to unregister dll/ocx files that you don't need on your system anymore.
+If you have dll/ocx files that don't exist on your system anymore, but their registration entries are still
+exist in your Registry, you can manually remove these entries by using 'Delete All Entries For Selected Files' option.
+
+
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/process_activity_view.html">ProcessActivityView</a>
+<td class="toolstitle2">
+ProcessActivityView creates a summary of all files and folders that the selected process tries to access.
+For each file that the process access, the following information is displayed:
+Number of times that the file was opened and closed, number of read/write calls, total number of
+read/write bytes, the dll that made the last open-file call, and more...
+
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/process_threads_view.html">ProcessThreadsView</a>
+<td class="toolstitle2">
+ProcessThreadsView is a small utility that displays extensive information about all threads of the process that you choose. The threads information includes the ThreadID, Context Switches Count, Priority, Created Time, User/Kernel Time, Number of Windows, Window Title, Start Address, and more.
+When selecting a thread in the upper pane, the lower pane displays the following information: Strings found in the stack, stack modules addresses, call stack, and processor registers.
+ProcessThreadsView also allows you to suspend and resume one or more threads. 
+
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/network_traffic_view.html">NetworkTrafficView</a>
+<td class="toolstitle2">
+NetworkTrafficView is a network monitoring tool that captures the packets pass through your network adapter, and displays general statistics about your network traffic. The packets statistics is grouped by the Ethernet Type, IP Protocol, Source/Destination Addresses, and Source/Destination ports. For every statistics line, the following information is displayed: Ethernet Type (IPv4, IPv6, ARP), IP Protocol (TCP, UDP, ICMP), Source Address, Destination Address, Source Port, Destination Port, Service Name (http, ftp, and so on), Packets Count, Total Packets Size, Total Data Size, Data Speed, Maximum Data Speed, Average Packet Size, First/Last Packet Time, Duration, and process ID/Name (For TCP connections). 
+
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/web_site_sniffer.html">WebSiteSniffer</a>
+<td class="toolstitle2">
+WebSiteSniffer is a packet sniffer tool that captures all Web site files downloaded by your Web browser while browsing the Internet, and stores them on your hard drive under the base folder that you choose. WebSiteSniffer allows you to choose which type of Web site files will be captured: HTML Files, Text Files, XML Files, CSS Files, Video/Audio Files, Images, Scripts, and Flash (.swf) files.
+
+While capturing the Web site files, the main window of WebSiteSniffer displays general statistics about the downloaded files for every Web site / host name, including the total size of all files (compressed and uncompressed) and total number of files for every file type (HTML, Text, Images, and so on) 
+
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/web_cookies_sniffer.html">WebCookiesSniffer</a>
+<td class="toolstitle2">
+WebCookiesSniffer is a packet sniffer tool that captures all Web site cookies sent between the Web browser and the Web server and displays them in a simple cookies table. The upper pane of WebCookiesSniffer displays the cookie string and the Web site/host name that sent or received this cookie. When selecting a cookie string in the upper pane, WebCookiesSniffer parses the cookie string and displays the cookies as name-value format in the lower pane. 
+
+
+
+
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/reg_file_from_application.html">RegFromApp</a>
+<td class="toolstitle2">
+RegFromApp monitors the Registry changes made by the application that you selected, and 
+creates a standard RegEdit registration file (.reg) that contains all the Registry changes made by 
+the application.
+You can use the generated .reg file to import these changes with RegEdit when it's needed.
+
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/dll_export_viewer.html">DLL Export Viewer</a>
+<td class="toolstitle2">
+This utility displays the list of all exported functions (c++) and their virtual memory addresses for the specified DLL files. You can easily copy the memory address of the desired function, paste it into your debugger, and set a breakpoint for this memoery address. When this function is called, the debugger will stop in the beginning of this function. 
+
+
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/heap_memory_view.html">HeapMemView</a>
+<td class="toolstitle2">
+HeapMemView is a small utility that allows you to view the content of all memory blocks allocated in the heap of the
+process the you select.
+
+<br>
+This tool can be useful for developers that need to trace memory leaks in their software. 
+
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/gdi_handles.html">GDIView</a>
+<td class="toolstitle2">
+GDIView is a unique tool that displays the list of GDI handles (brushes, pens, fonts, bitmaps, and others) opened by every process. 
+It displays the total count for each type of GDI handle, as well as detailed information about each handle.
+<br>
+This tool can be useful for developers that need to trace GDI resources leak in their software.
+
+
+<tr>
+<td class="toolstitle1" nowrap><a href="utils/run_as_date.html">RunAsDate</a>
+<td class="toolstitle2">
+RunAsDate is a small utility that allows you to run a program in the date and time that you specify. This utility doesn't change the current system date and time of your computer, but it only injects the date/time that you specify into the desired application. 
+You can run multiple applications simultaneously, each application works with different date and time, while the real date/time of your system continues to run normally. 
+
+
+
+
+</table>
+
+
+
+
+
+
+
+
+
+<p>
+
+
+
+
+
+</td>
+
+<td width="10">&nbsp;&nbsp;</td>
+</tr>
+
+</table>
+
+<p>
+</td>
+
+
+
+
+</tr>
+
+</table>
+
+
+</body>
+
+
+</html>

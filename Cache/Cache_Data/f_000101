@@ -1,0 +1,531 @@
+<html>
+<head>
+<title>VaultPasswordView - Decrypt Windows Vault Passwords</title>
+<meta name="keywords" content="Windows,Vault,decrypt,password,recovery,external,drive">
+<meta name="description" content="Simple tool for Windows 10 / 8 / 7 that decrypts and displays the passwords and other data stored inside Windows Vault">
+<link rel="stylesheet" href="../main.css">
+
+<meta property="og:title" content="Decrypt Windows Vault Passwords" />
+<meta property="og:description" content="Simple tool for Windows 10 / 8 / 7 that decrypts and displays the passwords and other data stored inside Windows Vault" />
+<meta property="og:image" content="https://www.nirsoft.net/utils/vaultpasswordview.png" />
+<meta property="og:image:width" content="738" />
+<meta property="og:image:height" content="395" />
+
+
+
+
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="NirSoft" />
+<meta property="og:url" content="https://www.nirsoft.net/utils/vault_password_view.html" />
+<link rel="canonical" href="https://www.nirsoft.net/utils/vault_password_view.html" />
+<link rel="alternate" type="application/rss+xml" title="NirSoft Updates" href="https://feeds.feedburner.com/nirsoft/voiG">
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P2Q08WF7BK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P2Q08WF7BK');
+</script>
+
+
+
+
+
+	
+
+
+
+
+
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr>
+<td colspan="3" class="siteheader" height="50">
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr style="height:10px">
+<td>
+<td>
+
+<tr>
+<td>
+<a href="//www.nirsoft.net">
+<img src="/nirsoft2.gif" border="0">
+</a>
+
+<td>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- NirSoft Top Ad -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-5286073190998405"
+     data-ad-slot="3603023613"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+
+
+
+
+
+
+<tr style="height:10px">
+<td>
+<td>
+
+
+</table>
+
+
+
+</td>
+</tr>
+
+
+<tr>
+<td valign="top" class="siteheader" style="width:170px">
+
+<table border="0" cellpadding="3" width="100%"  style="width:170px">
+<tr class="menub1"><td nowrap><a href="//www.nirsoft.net">Main Page</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="//blog.nirsoft.net">Blog</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/search_freeware.html">Search</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/faq.html">FAQ</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/top_utilities_downloads.html">TOP 10</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/pad">Pad Files</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/contact-new.html">Contact</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/about_nirsoft_freeware.html">About...</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="https://www.nirsoft.net/donate.html" style="color:#000080">Donate</a><br>
+</td></tr>
+</table>
+
+<table border="0" cellpadding="3" width="100%">
+<tr class="menub2"><td nowrap><a href="/utils/index.html">All Utilities</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/password_recovery_tools.html">Password Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/system_tools.html">System Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/web_browser_tools.html">Browser Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/programmer_tools.html">Programmer Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/network_tools.html">Network Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/outlook_office_software.html">Outlook/Office</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/x64_download_package.html">64-bit Download</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/panel">Panel</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/computer_forensic_software.html">Forensics</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/alpha">Pre-Release Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/articles">Articles</a><br>
+</td></tr>
+
+</table>
+
+
+
+
+<p>
+
+<center>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- NirSoft Left Side -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-5286073190998405"
+     data-ad-slot="8544847776"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+
+
+
+</center>
+
+
+
+</td>
+
+<td class="menutomain">&nbsp;
+</td>
+
+<td valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="toptomain" colspan="3">
+</td>
+<tr>
+<td style="width:7px">&nbsp;</td>
+<td valign="top">
+
+
+<table border="0" class="utilcaption" cellspacing="3">
+<tr><td><img src="vaultpasswordview_icon.png">
+<td>VaultPasswordView v1.12
+<br>
+Copyright (c) 2016 - 2023 Nir Sofer
+
+</table>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style ">
+<a class="addthis_button_preferred_1"></a>
+<a class="addthis_button_preferred_2"></a>
+<a class="addthis_button_preferred_3"></a>
+<a class="addthis_button_preferred_4"></a>
+<a class="addthis_button_compact"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
+<script type="text/javascript" async="async" src="//s7.addthis.com/js/250/addthis_widget.js#pubid=nirsofer"></script>
+<!-- AddThis Button END -->
+
+
+<p>
+<h4 class="utilsubject">See Also</h4>
+<ul>
+<li><a href="credentials_file_view.html">CredentialsFileView  - Decrypt the Credentials files of Windows</a> 
+</ul>
+
+
+
+
+
+<p>
+<h4 class="utilsubject">Description</h4>
+VaultPasswordView is a simple tool for Windows 11/10/8/7 that decrypts and displays the passwords and other data stored inside 'Windows Vault'.
+You can use it to decrypt the Windows Vault data of your currently running system, as well as the Windows Vault data stored on external hard drive.
+
+
+<p>
+<h4 class="utilsubject">Versions History</h4>
+<ul>
+
+<li>Version 1.12:
+<ul>
+<li>Fixed a problem with decrypting Windows Vault passwords from external drive on Windows 11 22H2.
+<li>Updated to work properly in high DPI mode.
+</ul>
+
+
+<li>Version 1.11:
+<ul>
+<li>Fixed the external drive feature to work properly if you sign in with Microsoft account.
+<li>Be aware that in order to decrypt Windows Vault information created while you signed in with Microsoft account, you have to provide the random DPAPI password generated 
+for your Microsoft account instead of the actual login password. You can find this DPAPI password with the <a href="https://www.nirsoft.net/utils/microsoft_account_dpapi_password.html" target="MadPassExt">MadPassExt tool</a>. 
+
+</ul>
+
+<li>Version 1.10:
+<ul>
+<li>Added new option: 'Decrypt vault files of all logged-in users'. 
+This new option allows you to decrypt the Windows Vault files of non-administrator user without typing the password, as long as the user is already logged into your system. 
+</ul>
+
+
+<li>Version 1.08:
+<ul>
+<li>Multiple users reported about 'Invalid key file inside the Protect folder' error. The error message was incorrect and now it's displayed as 'Invalid key in policy file'.
+Also, added debug information to this error message in order to find out the cause of this error. 
+</ul>
+
+
+<li>Version 1.07:
+<ul>
+<li>Fixed bug: When VaultPasswordView failed to find any data inside Windows Vault, it displayed the wrong message - 'Cannot find the Policy.vpol file inside the vault folder' instead of 'Cannot find any .vcrd file inside the vault folder'.
+</ul>
+
+<li>Version 1.06:
+<ul>
+<li>Fixed the lower pane to switch focus when pressing tab key.
+</ul>
+
+
+<li>Version 1.05:
+<ul>
+<li>VaultPasswordView now allows you to decrypt the data stored inside Windows Vault of the current user without supplying the login password and other information. 
+This feature requires elevation (Run As Administrator) and on 64-bit systems you must use the 64-bit version of VaultPasswordView.
+</ul>
+
+<li>Version 1.01:
+<ul>
+<li>Fixed bug: VaultPasswordView detected the user profile folder incorrectly.
+</ul>
+
+<li>Version 1.00 - First release.
+</ul>
+
+
+<p>
+<h4 class="utilsubject">System Requirements</h4>
+<ul>
+<li>This utility works on any version of Windows, starting from Windows 7 and up to Windows 11. 
+Both 32-bit and 64-bit systems are supported. Be aware that this tool is not very useful on Windows 7, simply
+because Microsoft started to use the Windows vault for storing IE and Windows mail passwords only from Windows 8.
+<li>You can also use this tool on Windows XP with SP3 for decrypting the Windows Vault of external drive with Windows 11/10/8/7. 
+</ul>
+
+
+<p>
+<img src="vaultpasswordview.png">
+
+
+<p>
+<h4 class="utilsubject">Passwords And Data Stored by Windows Vault</h4>
+<ul>
+<li>Passwords of Internet Explorer 10.0/11.0 and Microsoft Edge running under Windows 8 or later. (Be aware that IE10/IE11 under Windows 7 doesn't use the Windows Vault to store passwords).
+<li>Login Information of Windows Mail application (Windows 8 or later).
+</ul>
+
+
+
+<p>
+<h4 class="utilsubject">Windows Vault Location</h4>
+Windows vault files are stored in the following folders:
+<ul>
+<li>C:\Users\[User Profile]\AppData\Local\Microsoft\Vault
+<li>C:\ProgramData\Microsoft\Vault
+<li>C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\Vault
+</ul>
+
+Inside these vault folders, there is Policy.vpol filename that contains the encryption key.
+The encryption key is used to decrypt the .vcrd files in the same vault folder.
+
+
+<p>
+<h4 class="utilsubject">Notice For Windows 7 Users</h4>
+The term 'Windows Vault' is somewhat confusing because the passwords displayed by Windows 7 as Windows Vault are actually stored inside Credentials files.
+So if you have Windows 7 and you want to recover the passwords listed in the 'Windows Vault' window you should actually use the following tools:
+<a href="https://www.nirsoft.net/utils/network_password_recovery.html">Network Password Recovery</a>  or
+<a href="https://www.nirsoft.net/utils/credentials_file_view.html">CredentialsFileView</a>
+
+
+
+
+
+<p>
+<h4 class="utilsubject">Start Using VaultPasswordView</h4>
+VaultPasswordView doesn't require any installation process or additional DLL files.
+In order to start using it, simply run the executable file - VaultPasswordView.exe
+<p>
+After running VaultPasswordView, the 'Vault Decryption Options' window is displayed.  
+VaultPasswordView automatically fills the correct folders of your current running system and current logged-on user.
+The only field you have to fill by yourself is the 'Windows Login Password', the login password is needed in order to decrypt the Windows vault files.
+<br>
+You can also decrypt the data of Windows Vault of the current logged-on user without providing the login password if you choose the 
+'Decrypt vault files of the current user' option in the top combo-box. 
+This feature requires elevation (Run As Administrator) and also you must use the 64-bit build of VaultPasswordView if you have 64-bit version of Windows.
+<p>
+If you have multiple logged-in users (For example: non-administrator user that owns the vault data you want to decrypt, and 
+Administrator user that you use for the elevation of VaultPasswordView), you should choose the 'Decrypt vault files of all logged-in users' option.
+
+<p>
+If you want to decrypt the Windows vault files of external drive, you can manually fill the correct folders on your external drive, or alternatively you can
+choose the root folder of your external drive and then click the 'Automatic Fill' button.
+
+<p>
+After clicking the 'Ok' button of the 'Vault Decryption Options' window, VaultPasswordView scans the files inside the vault folders, decrypts them and then
+displays the result in the main window. The upper pane of the main window displays the list of all decrypted .vcrd files.
+When selecting an item in the upper pane, the lower pane displays the entire decrypted data in Hex-Dump format.
+If the decrypted data contains a password or other text, this text is also displayed in the 'Item Value' column on the upper pane.
+
+<p>
+<h4 class="utilsubject">Run As Administrator</h4>
+By default, VaultPasswordView doesn't request elevation (Run As Administrator) when running it.
+However, if you have vault files encrypted with a system key - you have to run VaultPasswordView as Administrator in order to decrypt these vault files.
+You can run VaultPasswordView as administrator by pressing Ctrl+F11.
+
+
+<p>
+<h4 class="utilsubject">Translating VaultPasswordView to other languages</h4>
+In order to translate VaultPasswordView to other language, follow the instructions below:
+<ol>
+<li>Run VaultPasswordView with /savelangfile parameter:
+<br>
+VaultPasswordView.exe /savelangfile
+<br>
+A file named VaultPasswordView_lng.ini will be created in the folder of VaultPasswordView utility.
+<li>Open the created language file in Notepad or in any other text editor. 
+<li>Translate all string entries to the desired language.
+Optionally, you can also add your name and/or a link to your Web site. 
+(TranslatorName and TranslatorURL values) If you add this information, it'll be 
+used in the 'About' window. 
+ 
+<li>After you finish the translation, Run VaultPasswordView, and all translated 
+strings will be loaded from the language file.
+<br>If you want to run VaultPasswordView without the translation, simply rename the language file, or move 
+it to another folder. 
+
+</ol>
+
+
+
+
+<p>
+<h4 class="utilsubject">License</h4>
+This utility is released as freeware. 
+You are allowed to freely distribute this utility via floppy disk, CD-ROM, 
+Internet, or in any other way, as long as you don't charge anything for this and you don't
+sell it or distribute it as a part of commercial product.  
+If you distribute this utility, you must include all files in
+the distribution package, without any modification !
+
+
+
+
+
+<p>
+<h4 class="utilsubject">Disclaimer</h4>
+The software is provided &quot;AS IS&quot; without any warranty, either expressed or implied,
+including, but not limited to, the implied warranties of merchantability and fitness
+for a particular purpose. The author will not be liable for any special, incidental,
+consequential or indirect damages due to loss of data or any other reason. 
+
+<p>
+<h4 class="utilsubject">Feedback</h4>
+If you have any problem, suggestion, comment, or you found a bug in my utility, 
+you can send a message to <a href="mailto:nirsofer@yahoo.com">nirsofer@yahoo.com</a>
+
+
+
+<p>
+
+<table border="0" cellpadding="10" width="100%">
+<tr><td align="center">
+<a class="downloadline" href="/toolsdownload/vaultpasswordview.zip">Download VaultPasswordView (32-bit)</a>
+
+<tr><td align="center">
+<a class="downloadline" href="/toolsdownload/vaultpasswordview-x64.zip">Download VaultPasswordView (64-bit)</a>
+
+
+</table>
+
+
+
+
+<table>
+<tr><td>&nbsp;
+</table>
+
+
+
+
+
+<table>
+<tr>
+<td>
+&nbsp;
+
+</table>
+
+
+
+<p>
+
+VaultPasswordView is also available in other languages. In order to change the language of 
+VaultPasswordView, download the appropriate language zip file, extract the 'vaultpasswordview_lng.ini', 
+and put it in the same folder that you Installed VaultPasswordView utility.
+<p/>
+<table class="mytable1"><tr class="utiltableheader">
+<th>Language</th><th>Translated By</th><th>Date</th><th>Version</th></tr>
+
+<tr><td><a href="trans/vaultpasswordview_arabic.zip">Arabic</a></td><td>
+<a href="https://downzen.com/en/windows/vaultpasswordview/" target="trans">Ammar Kurd</a></td><td>07/02/2019</td><td>1.08</td></tr>
+
+<tr><td><a href="trans/vaultpasswordview_brazilian_portuguese.zip">Brazilian Portuguese</a></td><td>igorruckert</td><td>25/09/2016</td><td>1.00</td></tr>
+
+<tr><td><a href="trans/vaultpasswordview_dutch.zip">Dutch</a></td><td>Jan Verheijen</td><td>18/12/2023</td><td>1.12</td></tr>
+
+<tr><td><a href="trans/vaultpasswordview_french.zip">French</a></td><td>Largo</td><td>30/09/2018</td><td>1.08</td></tr>
+
+<tr><td><a href="trans/vaultpasswordview_german.zip">German</a></td><td>
+<a href="https://www.wintotal.de/nirsoft-uebersetzungen/" target="trans">«Latino» auf WinTotal</a></td><td>18/12/2023</td><td>1.12</td></tr>
+
+<tr><td><a href="trans/vaultpasswordview_greek.zip">Greek</a></td><td>
+<a href="https://www.geogeo.gr" target="trans">geogeo.gr</a></td><td>28/07/2017</td><td>1.06</td></tr>
+
+<tr><td><a href="trans/vaultpasswordview_hungarian.zip">Hungarian</a></td><td>Timinoun</td><td>12/12/2022</td><td>1.11</td></tr>
+
+<tr><td><a href="trans/vaultpasswordview_italian.zip">Italian</a></td><td>Andrea Carli e R.B.</td><td>06/01/2022</td><td>1.11</td></tr>
+
+<tr><td><a href="trans/vaultpasswordview_persian.zip">Persian</a></td><td>
+<a href="https://zendegiyesabz.com/" target="trans">ZendegiyeSabz</a></td><td>24/12/2023</td><td>1.12</td></tr>
+
+<tr><td><a href="trans/vaultpasswordview_schinese.zip">Simplified Chinese</a></td><td>
+<a href="http://dickmoore.cn" target="trans">DickMoore</a></td><td>01/01/2022</td><td>1.11</td></tr>
+
+<tr><td><a href="trans/vaultpasswordview_slovak.zip">Slovak</a></td><td>František Fico</td><td>08/01/2024</td><td>1.12</td></tr>
+
+<tr><td><a href="trans/vaultpasswordview_spanish.zip">Spanish</a></td><td>
+<a href="https://sites.google.com/site/rivica" target="trans">Ricardo A. Rivas</a></td><td>06/08/2020</td><td>1.10</td></tr>
+
+<tr><td><a href="trans/vaultpasswordview_tchinese.zip">Traditional Chinese</a></td><td>
+<a href="https://zhtwnet.com" target="trans">Danfong Hsieh</a></td><td>29/12/2021</td><td>1.11</td></tr>
+
+<tr><td><a href="trans/vaultpasswordview_turkish.zip">Turkish</a></td><td>
+<a href="https://harbee.blogspot.com/" target="trans">HARUN ARI</a></td><td>17/12/2023</td><td>1.12</td></tr>
+
+</table>
+<p/>
+
+
+<p>
+
+
+
+
+</td>
+
+<td width="10">&nbsp;&nbsp;</td>
+</tr>
+
+</table>
+
+<p>
+</td>
+
+
+
+
+</tr>
+
+</table>
+
+
+</body>
+
+
+</html>

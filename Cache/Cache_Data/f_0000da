@@ -1,0 +1,745 @@
+<html>
+<head>
+<title>View / delete cookies of Chrome Web browser</title>
+<meta name="keywords" content="view,delete,cookies,chrome,web,browser">
+<meta name="description" content="Tool for Windows to view, export, and delete the cookies of Google Chrome Web browser">
+<link rel="stylesheet" href="../main.css">
+
+<meta property="og:title" content="ChromeCookiesView - Chrome Cookies Viewer" />
+<meta property="og:description" content="Tool for Windows to view, export, and delete the cookies of Google Chrome Web browser" />
+<meta property="og:image" content="https://www.nirsoft.net/utils/chromecookiesview.gif" />
+<meta property="og:image:width" content="582" />
+<meta property="og:image:height" content="372" />
+
+
+
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="NirSoft" />
+<meta property="og:url" content="https://www.nirsoft.net/utils/chrome_cookies_view.html" />
+<link rel="canonical" href="https://www.nirsoft.net/utils/chrome_cookies_view.html" />
+<link rel="alternate" type="application/rss+xml" title="NirSoft Updates" href="https://feeds.feedburner.com/nirsoft/voiG">
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P2Q08WF7BK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P2Q08WF7BK');
+</script>
+
+
+
+
+
+	
+
+
+
+
+
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr>
+<td colspan="3" class="siteheader" height="50">
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr style="height:10px">
+<td>
+<td>
+
+<tr>
+<td>
+<a href="//www.nirsoft.net">
+<img src="/nirsoft2.gif" border="0">
+</a>
+
+<td>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- NirSoft Top Ad -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-5286073190998405"
+     data-ad-slot="3603023613"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+
+
+
+
+
+
+<tr style="height:10px">
+<td>
+<td>
+
+
+</table>
+
+
+
+</td>
+</tr>
+
+
+<tr>
+<td valign="top" class="siteheader" style="width:170px">
+
+<table border="0" cellpadding="3" width="100%"  style="width:170px">
+<tr class="menub1"><td nowrap><a href="//www.nirsoft.net">Main Page</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="//blog.nirsoft.net">Blog</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/search_freeware.html">Search</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/faq.html">FAQ</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/top_utilities_downloads.html">TOP 10</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/pad">Pad Files</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/contact-new.html">Contact</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/about_nirsoft_freeware.html">About...</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="https://www.nirsoft.net/donate.html" style="color:#000080">Donate</a><br>
+</td></tr>
+</table>
+
+<table border="0" cellpadding="3" width="100%">
+<tr class="menub2"><td nowrap><a href="/utils/index.html">All Utilities</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/password_recovery_tools.html">Password Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/system_tools.html">System Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/web_browser_tools.html">Browser Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/programmer_tools.html">Programmer Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/network_tools.html">Network Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/outlook_office_software.html">Outlook/Office</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/x64_download_package.html">64-bit Download</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/panel">Panel</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/computer_forensic_software.html">Forensics</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/alpha">Pre-Release Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/articles">Articles</a><br>
+</td></tr>
+
+</table>
+
+
+
+
+<p>
+
+<center>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- NirSoft Left Side -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-5286073190998405"
+     data-ad-slot="8544847776"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+
+
+
+</center>
+
+
+
+</td>
+
+<td class="menutomain">&nbsp;
+</td>
+
+<td valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="toptomain" colspan="3">
+</td>
+<tr>
+<td style="width:7px">&nbsp;</td>
+<td valign="top">
+
+
+<table border="0" class="utilcaption" cellspacing="3">
+<tr><td><img src="chromecookiesview_icon.gif">
+<td>ChromeCookiesView v1.76  - View / delete cookies of Google Chrome Web browser
+<br>
+Copyright (c) 2011 - 2024 Nir Sofer
+
+</table>
+
+
+
+<p>
+<h4 class="utilsubject">Description</h4>
+ChromeCookiesView is an alternative to the standard internal cookies viewer of Google Chrome Web browser.
+it displays the list of all cookies stored by Google Chrome Web browser, and allows you to easily delete 
+unwanted cookies. It also allows you export the cookies into text/csv/html/xml file.
+<br>
+For every cookie, the following information is displayed:
+Host Name, Path, Name, Value, Secure (Yes/No), HTTP Only Cookie (Yes/No), Last Accessed Time, 
+Creation Time, Expiration Time.
+
+<p>
+<img src="chromecookiesview.gif" alt="Chrome Cookies Viewer">
+
+
+<p>
+<h4 class="utilsubject">System Requirements</h4>
+<ul>
+<li>This utility works on any version of Windows, starting from Windows 2000 and up to Windows 11, and with any version of 
+Google Chrome.
+</ul>
+
+<p>
+<h4 class="utilsubject">System Requirements</h4>
+<ul>
+
+
+<li>Version 1.76:
+<ul>
+<li>Added 'Sort By' toolbar button.
+</ul>
+
+
+<li>Version 1.75:
+<ul>
+<li>When the cookies file is locked by Chrome Web browser, ChromeCookiesView now displays an error message.
+</ul>
+
+
+
+<li>Version 1.74:
+<ul>
+<li>Fixed a problem with decrypting cookies from external drive on Windows 11 22H2.
+</ul>
+
+
+<li>Version 1.73:
+<ul>
+<li>Updated to keep the scroll position after you delete cookies.
+<li>Added 'Brave Cookies File' button to the 'Advanced Options' window.
+</ul>
+
+
+<li>Version 1.72:
+<ul>
+<li>If you try to delete cookies while the cookies file is locked by the Web browser, ChromeCookiesView now displays the appropriate message.
+</ul>
+
+
+<li>Version 1.71:
+<ul>
+<li>Added 'Show Milliseconds In Time' option.
+</ul>
+
+
+<li>Version 1.70:
+<ul>
+<li>ChromeCookiesView now automatically detects the cookies file of the last used profile, when there are multiple profiles.
+</ul>
+
+
+<li>Version 1.69:
+<ul>
+<li>Fixed bug in the 'Edge Cookies File' button.
+</ul>
+
+
+<li>Version 1.68:
+<ul>
+<li>Updated to work properly with the new cookies file location (Under the Network subfolder).
+<li>Fixed the external drive feature to work properly if you sign in with Microsoft account. 
+<li>Be aware that in order to decrypt the cookies created while you signed in with Microsoft account, you have to provide the random DPAPI password generated 
+for your Microsoft account instead of the actual login password. You can find this DPAPI password with the <a href="https://www.nirsoft.net/utils/microsoft_account_dpapi_password.html" target="MadPassExt">MadPassExt tool</a>. 
+
+</ul>
+
+<li>Version 1.67:
+<ul>
+<li>Added 'Copy Clicked Cell' option to the right-click context menu, which copies to the clipboard the text of cell that you right-clicked with the mouse. 
+</ul>
+
+
+<li>Version 1.66:
+<ul>
+<li>Added option to change the sorting column from the menu (View -> Sort By). Like the column header click sorting, if you click again the same sorting menu item, it'll switch between ascending and descending order. Also, if you hold down the shift key while choosing the sort menu item, you'll get a secondary sorting. 
+</ul>
+
+
+<li>Version 1.65:
+<ul>
+<li>Added 'Decode Escape Sequence' option (turned on by default). You can turn off this option if you want to get the original name/value without escape sequence decoding. 
+</ul>
+
+
+
+<li>Version 1.61:
+<ul>
+<li>Fixed ChromeCookiesView to decrypt the new cookies encryption on Opera Web browser (The 'Local State' file is stored inside the profile instead of the parent folder) 
+</ul>
+
+
+
+<li>Version 1.60:
+<ul>
+<li>Added support for decrypting the encrypted cookie values of Chrome/Chromium version 80 or later (They changed the encryption algorithm). 
+<li>Be aware that the 'Local State' file ( located inside the 'User Data' folder) contains the encryption key needed to decrypt the cookies of Chromium 80. 
+<li>In most cases, ChromeCookiesView will find your 'Local State' file automatically, but if it fails to find this file from some reason, you can manually type the 'Local State' filename in the 'Advanced Options' window. 
+</ul>
+
+
+<li>Version 1.58:
+<ul>
+<li>Added 'Edge Cookies File' button to the 'Advanced Options' window, which automatically fills the cookies file of the new Chromium-Based Edge Web browser.
+</ul>
+
+
+
+<li>Version 1.57:
+<ul>
+<li>The decryption process of external drive cookies is now much faster.
+</ul>
+
+
+<li>Version 1.56:
+<ul>
+<li>Added 'Add Remark Line To cookies.txt' option. When it's turned on, '# Netscape HTTP Cookie File' header line is added to cookies.txt file format.
+<li>When pressing F5 (Refresh) the refresh process is smoother, keeping the selected item and scroll position.
+</ul>
+
+
+<li>Version 1.55:
+<ul>
+<li>Added /DeleteCookiesWildcard  which allows you to delete cookies from command-line that match the specified wildcard, for example:
+<br>
+/DeleteCookiesWildcard &quot;*.Google.com&quot;
+</ul>
+
+
+
+
+<li>Version 1.51:
+<ul>
+<li>Added 'Put Icon On Tray' option.
+</ul>
+
+
+
+
+<li>Version 1.50:
+<ul>
+<li>Added /DeleteCookies command-line option to delete cookies from command-line.
+</ul>
+
+
+
+<li>Version 1.48:
+<ul>
+<li>Added 'Add Header Line To CSV/Tab-Delimited File' option (Turned on by default). 
+<li>Fixed bug: ChromeCookiesView failed to remember the last size/position of the main window if it was not located in the primary monitor. 
+
+</ul>
+
+
+
+<li>Version 1.47:
+<ul>
+<li>Fixed to read the cookies file in the latest versions of Chrome.
+</ul>
+
+
+<li>Version 1.46:
+<ul>
+<li>Added 'Auto Size Columns+Headers' option.
+</ul>
+
+
+<li>Version 1.45:
+<ul>
+<li>Added 'Decrypt cookies from external drive' option (In 'Advanced Options' window). In order to decrypt the cookies from external drive, you have to specify the 
+Protect folder of Windows (e.g: F:\Users\user1\AppData\Roaming\Microsoft\Protect )  and the login password of the user.
+</ul>
+
+
+
+<li>Version 1.40:
+<ul>
+<li>Added option to specify the cookies file from command-line, for example:
+<br>
+ChromeCookiesView.exe /CookiesFile &quot;c:\temp\cookies&quot;
+<li>Added Auto-Complete support for the cookies file text-box.
+</ul>
+
+
+<li>Version 1.35:
+<ul>
+<li>Added 'Quick Filter' feature (View -> Use Quick Filter or Ctrl+Q). When it's turned on, you can type a string in the text-box added under the toolbar and ChromeCookiesView will instantly filter the cookies, showing only lines that contain the string you typed. 
+</ul>
+
+
+<li>Version 1.30:
+<ul>
+<li>Added option to save in cookies.txt format (In File -> Save Selected Items option)
+<li>Added /scookiestxt command-line option to save in cookies.txt format.
+</ul>
+
+<li>Version 1.25:
+<ul>
+<li>Added new buttons to easily choose the cookies file of Chrome-base Web browsers: 'Vivaldi Cookies File', 'Yandex Cookies File' (Advanced Options window).
+</ul>
+
+<li>Version 1.20:
+<ul>
+<li>Fixed ChromeCookiesView to display the value of encrypted cookies.
+</ul>
+
+
+<li>Version 1.15:
+<ul>
+<li>Fixed to work properly with the latest version of Chrome.
+</ul>
+
+<li>Version 1.12:
+<ul>
+<li>Added 'Opera Cookies File' button to the 'Advanced Options' window, which allows you to easily use this tool to view the cookies of Opera Web browser. (Opera is now based on the code of Chrome Web browser...)
+<li>Fixed the 'Default Cookies File' button in the 'Advanced Options' window.
+</ul>
+
+
+<li>Version 1.11:
+<ul>
+<li>Fixed bug: ChromeCookiesView deleted cookies that are not selected if they had the same creation time.
+</ul>
+
+<li>Version 1.10:
+<ul>
+<li>Added secondary sorting support: You can now get a secondary sorting, by holding down the shift key while clicking the column header. Be aware that you only have to hold down the shift key when clicking the second/third/fourth column. To sort the first column you should not hold down the Shift key. 
+<li>Fixed to display date/time values according to daylight saving time settings. 
+<li>Fixed a crash problem occurred in some systems.
+</ul>
+
+<li>Version 1.05 - Added option to copy the selected cookies in Netscape cookies.txt format (Ctrl+N)
+<li>Version 1.02 - Fixed a crash problem that occurred when loading the cookies.
+<li>Version 1.01 - Fixed bug: The date/time columns displayed incorrect values. 
+<li>Version 1.00 - First release.
+</ul>
+
+
+<p>
+<h4 class="utilsubject">Using ChromeCookiesView</h4>
+ChromeCookiesView doesn't require any installation process or additional DLL files.
+In order to start using it, simply run the executable file - ChromeCookiesView.exe
+<br>
+The main window of ChromeCookiesView displays the list of all cookies stored in your Google Chrome Web browser.
+You can select one or more chookie entries, and then use the 'Delete Selected Cookies' (Ctrl+Del) to delete them.
+<br>
+If you want to view the cookies stored in another cookies file, go to 'Advanced Options' window (F9) and choose
+the desired cookies file.
+
+
+
+<p>
+<h4 class="utilsubject">Command-Line Options</h4>
+
+<table border="1" cellpadding="5" bordercolor="#000000">
+
+<tr><td nowrap>
+/DeleteCookies &lt;Host&gt; {Cookie Name}
+<td>
+Deletes cookies from command-line.
+If you specify only the host name, all cookies of this host name will be deleted.
+If you also specify the cookie name, only this specific cookie will be deleted.
+<p>
+Examples:
+<br>
+ChromeCookiesView.exe /DeleteCookies &quot;.amazon.com&quot;
+<br>
+ChromeCookiesView.exe /DeleteCookies &quot;.amazon.com&quot; &quot;session-token&quot;
+
+<tr><td nowrap>
+/DeleteCookiesWildcard &lt;Host Wildcard&gt; {Cookie Name Wildcard}
+<td>
+Similar to /DeleteCookies, but it also allows you to specify the host name and cookie name as wildcard.
+For example, if you specify &quot;*.google.com&quot;, all google.com cookies will be deleted (including www.google.com, accounts.google.com, and so on)
+<p>
+Examples:
+<br>
+ChromeCookiesView.exe /DeleteCookiesWildcard &quot;*.google.com&quot;
+<br>
+ChromeCookiesView.exe /DeleteCookiesWildcard &quot;*.amazon.*&quot; &quot;session*&quot;
+
+
+
+
+<tr><td nowrap>
+/CookiesFile &lt;Filename&gt;
+<td>
+Specifies the cookies file to load from command-line, for example:
+<br>
+ChromeCookiesView.exe /CookiesFile &quot;c:\temp\Chrome\cookies&quot;
+
+
+<tr><td nowrap>
+/stext &lt;Filename&gt;
+<td>Save the cookies list into a regular text file.
+
+<tr><td nowrap>
+/stab &lt;Filename&gt;
+<td>Save the cookies list into a tab-delimited text file.
+
+<tr><td nowrap>
+/scomma &lt;Filename&gt;
+<td>Save the cookies list into a comma-delimited text file (csv).
+
+
+<tr><td nowrap>
+/stabular &lt;Filename&gt;
+<td>Save the cookies list into a tabular text file.
+
+<tr><td nowrap>
+/shtml &lt;Filename&gt;
+<td>Save the cookies list into HTML file (Horizontal).
+
+<tr><td nowrap>
+/sverhtml &lt;Filename&gt;
+<td>Save the cookies list into HTML file (Vertical).
+
+<tr><td nowrap>
+/sxml &lt;Filename&gt;
+<td>Save the cookies list into XML file.
+
+<tr><td nowrap>
+/scookiestxt &lt;Filename&gt;
+<td>
+Save the cookies list in cookies.txt format.
+
+
+<tr><td nowrap>
+/sort &lt;column&gt;
+<td>
+This command-line option can be used with other save options for sorting by the desired column.
+If you don't specify this option, the list is sorted according to the last sort that you made from the user interface.
+The &lt;column&gt; parameter can specify the column index (0 for the first column, 1 for the second column, and so on) or
+the name of the column, like &quot;Host Name&quot; and &quot;Path&quot;.
+You can specify the '~' prefix character (e.g: &quot;~Secure&quot;) if you want to sort in descending order.
+You can put multiple /sort in the command-line if you want to sort by multiple columns.
+<p>
+Examples:
+<br>ChromeCookiesView.exe /shtml &quot;f:\temp\cookies.html&quot; /sort 2 /sort ~1
+<br>ChromeCookiesView.exe /shtml &quot;f:\temp\cookies.html&quot; /sort &quot;Host Name&quot; /sort &quot;Path&quot;
+
+<tr><td nowrap>
+/nosort 
+<td>
+When you specify this command-line option, the list will be saved without any sorting.
+
+
+</table>
+
+
+
+ 
+<p>
+<h4 class="utilsubject">Read more about using ChromeCookiesView</h4>
+<ul  class="spacelist">
+
+<li><a href="https://www.nirsoft.net/articles/delete-chrome-cookies.html">Delete Chrome cookies from command line and GUI</a>
+</li>
+
+
+</ul>
+
+
+
+
+
+<p>
+<h4 class="utilsubject">Translating ChromeCookiesView to other languages</h4>
+In order to translate ChromeCookiesView to other language, follow the instructions below:
+<ol>
+<li>Run ChromeCookiesView with /savelangfile parameter:
+<br>
+ChromeCookiesView.exe /savelangfile
+<br>
+A file named ChromeCookiesView_lng.ini will be created in the folder of ChromeCookiesView utility.
+<li>Open the created language file in Notepad or in any other text editor. 
+<li>Translate all string entries to the desired language.
+Optionally, you can also add your name and/or a link to your Web site. 
+(TranslatorName and TranslatorURL values) If you add this information, it'll be 
+used in the 'About' window. 
+ 
+<li>After you finish the translation, Run ChromeCookiesView, and all translated 
+strings will be loaded from the language file.
+<br>If you want to run ChromeCookiesView without the translation, simply rename the language file, or move 
+it to another folder. 
+
+</ol>
+
+
+
+
+<p>
+<h4 class="utilsubject">License</h4>
+This utility is released as freeware. You are allowed to freely use it at your home
+or in your company. However, you are not allowed to make profit from this software or to
+charge your customers for recovering their passwords with this software, unless you got a permission from the software author. 
+<br>
+You are also allowed to freely distribute this utility via floppy disk, CD-ROM, 
+Internet, or in any other way, as long as you don't charge anything for this.  
+If you distribute this utility, you must include all files in
+the distribution package, without any modification !
+<br>
+
+
+<p>
+<h4 class="utilsubject">Disclaimer</h4>
+The software is provided &quot;AS IS&quot; without any warranty, either expressed or implied,
+including, but not limited to, the implied warranties of merchantability and fitness
+for a particular purpose. The author will not be liable for any special, incidental,
+consequential or indirect damages due to loss of data or any other reason. 
+
+<p>
+<h4 class="utilsubject">Feedback</h4>
+If you have any problem, suggestion, comment, or you found a bug in my utility, 
+you can send a message to <a href="mailto:nirsofer@yahoo.com">nirsofer@yahoo.com</a>
+
+
+
+<p>
+
+<table border="0" cellpadding="10" width="100%">
+<tr><td align="center">
+<a class="downloadline" href="chromecookiesview.zip">Download ChromeCookiesView 32-bit</a>
+
+
+<tr><td align="center">
+<a class="downloadline" href="chromecookiesview-x64.zip">Download ChromeCookiesView 64-bit</a>
+
+<tr><td align="center">
+<a class="downloadline" href="https://www.nirsoft.net/hash_check/?software=chromecookiesview">Check Download MD5/SHA1/SHA256 Hashes</a>
+
+</table>
+
+
+<p>
+
+ChromeCookiesView is also available in other languages. In order to change the language of 
+ChromeCookiesView, download the appropriate language zip file, extract the 'chromecookiesview_lng.ini', 
+and put it in the same folder that you Installed ChromeCookiesView utility.
+<p/>
+<table class="mytable1"><tr class="utiltableheader">
+<th>Language</th><th>Translated By</th><th>Date</th><th>Version</th></tr>
+
+<tr><td><a href="trans/chromecookiesview_dutch.zip">Dutch</a></td><td>Jan Verheijen</td><td>16/02/2024</td><td>1.76</td></tr>
+
+<tr><td><a href="trans/ChromeCookiesView_french.zip">French</a></td><td>Largo</td><td>04/01/2024</td><td>1.75</td></tr>
+
+<tr><td><a href="trans/chromecookiesview_german.zip">German</a></td><td>
+<a href="https://www.wintotal.de/nirsoft-uebersetzungen/" target="trans">«Latino» auf WinTotal.de</a></td><td>16/02/2024</td><td>1.76</td></tr>
+
+<tr><td><a href="trans/chromecookiesview_greek.zip">Greek</a></td><td>
+<a href="https://iguru.gr" target="trans">iguru.gr</a></td><td>20/11/2022</td><td>1.73</td></tr>
+
+<tr><td><a href="trans/chromecookiesview_hebrew.zip">Hebrew</a></td><td>
+<a href="http://www.he.Chabad.org" target="trans">Chabadnik</a></td><td>07/03/2011</td><td>1.01</td></tr>
+
+<tr><td><a href="trans/chromecookiesview_hebrew1.zip">Hebrew</a></td><td>
+<a href="http://www.softviz.022.co.il" target="trans">peterg</a></td><td>12/06/2011</td><td>1.02</td></tr>
+
+<tr><td><a href="trans/chromecookiesview_hungarian.zip">Hungarian</a></td><td>Timinoun</td><td>12/12/2022</td><td>1.73</td></tr>
+
+<tr><td><a href="trans/chromecookiesview_italian.zip">Italian</a></td><td>Styb</td><td>24/11/2022</td><td>1.73</td></tr>
+
+<tr><td><a href="trans/chromecookiesview_japanese.zip">Japanese</a></td><td>
+<a href="http://www.iso-g.com/" target="trans">Iso-G ( http://www.iso-g.com/ )</a></td><td>21/05/2011</td><td>1.01</td></tr>
+
+<tr><td><a href="trans/chromecookiesview_persian.zip">Persian</a></td><td>
+<a href="https://zendegiyesabz.com/" target="trans">ZendegiyeSabz</a></td><td>26/02/2024</td><td>1.76</td></tr>
+
+<tr><td><a href="trans/chromecookiesview_romanian.zip">Romanian</a></td><td>
+<a href="http://midimaniacs.no-ip.org" target="trans">Jaff (Oprea Nicolae)</a></td><td>30/12/2018</td><td>1.47</td></tr>
+
+<tr><td><a href="trans/chromecookiesview_russian.zip">Russian</a></td><td>
+<a href="http://ChromeCookiesView.chm" target="trans">Ñïðàâêà ChromeCookiesView</a></td><td>06/01/2024</td><td>1.75</td></tr>
+
+<tr><td><a href="trans/chromecookiesview_schinese.zip">Simplified Chinese</a></td><td>
+<a href="http://dickmoore.cn" target="trans">DickMoore</a></td><td>02/01/2024</td><td>1.74</td></tr>
+
+<tr><td><a href="trans/chromecookiesview_slovak.zip">Slovak</a></td><td>František Fico</td><td>04/03/2024</td><td>1.76</td></tr>
+
+<tr><td><a href="trans/chromecookiesview_swedish.zip">Swedish</a></td><td>Lars-E</td><td>10/02/2012</td><td>1.02</td></tr>
+
+<tr><td><a href="trans/chromecookiesview_tchinese.zip">Traditional Chinese</a></td><td>cjf8@Taiwan</td><td>27/05/2015</td><td>1.01</td></tr>
+
+<tr><td><a href="trans/chromecookiesview_tchinese1.zip">Traditional Chinese</a></td><td>
+<a href="https://zhtwnet.com" target="trans">Danfong Hsieh</a></td><td>04/01/2024</td><td>1.75</td></tr>
+
+<tr><td><a href="trans/chromecookiesview_turkish.zip">Turkish</a></td><td>
+<a href="https://harbee.blogspot.com/" target="trans">HARUN ARI</a></td><td>16/02/2024</td><td>1.76</td></tr>
+
+</table>
+<p/>
+
+
+<p>
+
+
+
+
+
+</td>
+
+<td width="10">&nbsp;&nbsp;</td>
+</tr>
+
+</table>
+
+<p>
+</td>
+
+
+
+
+</tr>
+
+</table>
+
+
+	
+</body>
+
+
+</html>

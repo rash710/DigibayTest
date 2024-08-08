@@ -1,0 +1,124 @@
+{
+   "checksum": "1c988056df204db9cc51d952500ad07a",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13366818739557029",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13366818755786536",
+            "date_last_used": "0",
+            "guid": "af187744-cb32-4197-afbf-7749168bad0f",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Welcome to Radixweb",
+            "type": "url",
+            "url": "http://welcome.radixoffice.com/"
+         }, {
+            "date_added": "13366818785941973",
+            "date_last_used": "0",
+            "guid": "c830bf72-6cf1-4443-9b63-6745daa29123",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "SonicWall Network Security Login",
+            "type": "url",
+            "url": "https://192.168.100.1/sonicui/7/login/#/?cid=-3"
+         }, {
+            "date_added": "13366878979337088",
+            "date_last_used": "13366880149648389",
+            "guid": "7640c349-953d-4ee3-951c-bc2481ef30a8",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "windows 10 - Error fix: gpedit.msc not found - alternatives? - Super User",
+            "type": "url",
+            "url": "https://superuser.com/questions/1728877/error-fix-gpedit-msc-not-found-alternatives"
+         }, {
+            "date_added": "13366879929510997",
+            "date_last_used": "13366880154358445",
+            "guid": "d5057db6-e929-4172-a11d-3c55b52d2ebb",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Group Policy Editor missing in Windows 10 Home - Microsoft Community",
+            "type": "url",
+            "url": "https://answers.microsoft.com/en-us/windows/forum/all/group-policy-editor-missing-in-windows-10-home/f5e9c4fa-8d46-444c-acd7-5cabaea9fc71"
+         }, {
+            "date_added": "13366882985440398",
+            "date_last_used": "0",
+            "guid": "8fb2a065-411d-4d80-a240-e3c2f8925311",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Google Chrome: How to Bypass Secure Preferences • Adlice Software",
+            "type": "url",
+            "url": "https://www.adlice.com/google-chrome-secure-preferences/"
+         }, {
+            "date_added": "13366901958251022",
+            "date_last_used": "0",
+            "guid": "2944dc39-1607-4393-817c-b07117a7af2c",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Issue 2634403002: Use GetDeterministicMachineSpecificId instead of RLZ for device_id - Code Review",
+            "type": "url",
+            "url": "https://codereview.chromium.org/2634403002"
+         }, {
+            "date_added": "13366903548951504",
+            "date_last_used": "0",
+            "guid": "c51def24-35a1-4730-8201-e09d94935359",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "DataProtectionDecryptor - Decrypt DPAPI (Data Protection API) data of Windows",
+            "type": "url",
+            "url": "https://www.nirsoft.net/utils/dpapi_data_decryptor.html#:~:text=If%20the%20DPAPI%20data%20was%20encrypted%20with%20the%20logon%20password,instead%20of%20the%20actual%20password."
+         }, {
+            "date_added": "13366903680394608",
+            "date_last_used": "0",
+            "guid": "b4a3b873-5440-4caa-bdef-b58c26c27459",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "DataProtectionDecryptor - Decrypt DPAPI (Data Protection API) data of Windows",
+            "type": "url",
+            "url": "https://www.nirsoft.net/utils/dpapi_data_decryptor.html"
+         } ],
+         "date_added": "13366818739557035",
+         "date_last_used": "0",
+         "date_modified": "13366903680394608",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13366818739557041",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

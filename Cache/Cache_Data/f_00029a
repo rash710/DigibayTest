@@ -1,0 +1,568 @@
+<html>
+<head>
+<title>DataProtectionDecryptor - Decrypt DPAPI (Data Protection API) data of Windows</title>
+<meta name="keywords" content="DPAPI,Data,Protection,API,Windows,decrypt,encryption,external,drive">
+<meta name="description" content="Decrypts passwords and other information encrypted by the DPAPI (Data Protection API) system of Windows operating system">
+<link rel="stylesheet" href="../main.css">
+
+
+
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="NirSoft" />
+<meta property="og:url" content="https://www.nirsoft.net/utils/dpapi_data_decryptor.html" />
+<link rel="canonical" href="https://www.nirsoft.net/utils/dpapi_data_decryptor.html" />
+<link rel="alternate" type="application/rss+xml" title="NirSoft Updates" href="https://feeds.feedburner.com/nirsoft/voiG">
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P2Q08WF7BK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P2Q08WF7BK');
+</script>
+
+
+
+
+
+	
+
+
+
+
+
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr>
+<td colspan="3" class="siteheader" height="50">
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr style="height:10px">
+<td>
+<td>
+
+<tr>
+<td>
+<a href="//www.nirsoft.net">
+<img src="/nirsoft2.gif" border="0">
+</a>
+
+<td>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- NirSoft Top Ad -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-5286073190998405"
+     data-ad-slot="3603023613"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+
+
+
+
+
+
+<tr style="height:10px">
+<td>
+<td>
+
+
+</table>
+
+
+
+</td>
+</tr>
+
+
+<tr>
+<td valign="top" class="siteheader" style="width:170px">
+
+<table border="0" cellpadding="3" width="100%"  style="width:170px">
+<tr class="menub1"><td nowrap><a href="//www.nirsoft.net">Main Page</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="//blog.nirsoft.net">Blog</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/search_freeware.html">Search</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/faq.html">FAQ</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/top_utilities_downloads.html">TOP 10</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/pad">Pad Files</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/contact-new.html">Contact</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="/about_nirsoft_freeware.html">About...</a><br>
+</td></tr>
+<tr class="menub1"><td nowrap><a href="https://www.nirsoft.net/donate.html" style="color:#000080">Donate</a><br>
+</td></tr>
+</table>
+
+<table border="0" cellpadding="3" width="100%">
+<tr class="menub2"><td nowrap><a href="/utils/index.html">All Utilities</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/password_recovery_tools.html">Password Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/system_tools.html">System Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/web_browser_tools.html">Browser Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/programmer_tools.html">Programmer Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/network_tools.html">Network Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/outlook_office_software.html">Outlook/Office</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/x64_download_package.html">64-bit Download</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/panel">Panel</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/computer_forensic_software.html">Forensics</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/alpha">Pre-Release Tools</a><br>
+</td></tr>
+<tr class="menub2"><td nowrap><a href="/articles">Articles</a><br>
+</td></tr>
+
+</table>
+
+
+
+
+<p>
+
+<center>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- NirSoft Left Side -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-5286073190998405"
+     data-ad-slot="8544847776"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+
+
+
+</center>
+
+
+
+</td>
+
+<td class="menutomain">&nbsp;
+</td>
+
+<td valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="toptomain" colspan="3">
+</td>
+<tr>
+<td style="width:7px">&nbsp;</td>
+<td valign="top">
+
+
+<table border="0" class="utilcaption" cellspacing="3">
+<tr><td><img src="dataprotectiondecryptor_icon.png">
+<td>DataProtectionDecryptor v1.13
+<br>
+Copyright (c) 2017 - 2023 Nir Sofer
+</table>
+
+
+<p>
+<h4 class="utilsubject">See Also</h4>
+<ul>
+<li><a href="credentials_file_view.html">CredentialsFileView  - Decrypt the Credentials files of Windows</a> 
+<li><a href="vault_password_view.html">VaultPasswordView - Decrypt Windows 10 Vault Passwords</a> 
+</ul>
+
+
+
+
+<p>
+<h4 class="utilsubject">Description</h4>
+DataProtectionDecryptor is a powerful tool for Windows that allows you to decrypt passwords and other information encrypted by the DPAPI (Data Protection API) system of Windows operating system.
+You can use this tool to decrypt DPAPI data on your current running system and to decrypt DPAPI data stored on external hard drive.
+
+
+<p>
+
+<img src="dataprotectiondecryptor.png">
+
+
+<p>
+<h4 class="utilsubject">About DPAPI</h4>
+DPAPI is a decryption/encryption system used by Microsoft products as well as by 3-party products to decrypt and encrypt passwords and other secret information on Windows operating system.
+DPAPI decrypted data always begins with the following sequence of bytes, so you can easily detect it:
+<br>
+01 00 00 00 D0 8C 9D DF 01 15 D1 11 8C 7A 00 C0 4F C2 97 EB
+
+<p>
+Here's some examples for passwords and other data encrypted with DPAPI:
+<ul>
+<li>Passwords of Microsoft Outlook accounts, stored in the Registry under HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Windows Messaging Subsystem\Profiles or
+HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Outlook\Profiles or HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Profiles (Depending on version of Outlook)
+<li>Credentials files of Windows (e.g: C:\Users\[User Profile]\AppData\Roaming\Microsoft\Credentials  , C:\Users\[User Profile]\AppData\Local\Microsoft\Credentials )
+<li>Wireless network keys (Stored inside XML files under C:\ProgramData\Microsoft\Wlansvc\Profiles\Interfaces )
+<li>Passwords in some versions of Internet Explorer, stored in the following Registry key: HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\IntelliForms\Storage2
+<li>Passwords stored in the passwords file of Chrome Web browser ('Login Data' file in the profile of Chrome).
+<li>Encrypted cookies in Chrome Web browser ('Cookies' file in the profile of Chrome)
+</ul>
+
+
+<p>
+<h4 class="utilsubject">System Requirements</h4>
+This tool works on any version of Windows, starting from Windows XP and up to Windows 11.
+Both 32-bit and 64-bit systems are supported.
+
+
+<p>
+<h4 class="utilsubject">Versions History</h4>
+<ul>
+
+<li>Version 1.13:
+<ul>
+<li>Fixed bug from Version 1.12: DataProtectionDecryptor displayed extra padding bytes when decrypting DPAPI data from external drive.
+</ul>
+
+<li>Version 1.12:
+<ul>
+<li>Fixed a problem with decrypting DPAPI data from external drive on Windows 11 22H2.
+<li>Updated to work properly in high DPI mode.
+</ul>
+
+
+<li>Version 1.11:
+<ul>
+<li>Fixed the external drive feature to work properly if you sign in with Microsoft account.
+<li>Be aware that in order to decrypt DPAPI-encrypted information created while you signed in with Microsoft account (On Windows 10 or Windows 11), you have to provide the random DPAPI password generated 
+for your Microsoft account instead of the actual login password. You can find this DPAPI password with the <a href="https://www.nirsoft.net/utils/microsoft_account_dpapi_password.html" target="MadPassExt">MadPassExt tool</a>. 
+
+</ul>
+
+
+<li>Version 1.10:
+<ul>
+<li>Added option to scan subfolders. For example, you can specify 'C:\ProgramData\Microsoft\Wlansvc\*.*' as a base folder, specify 'Infinite' in the 'Subfolder Depth' field and then 
+DataProtectionDecryptor will decrypt all wireless keys of all network interfaces on your system.
+</ul>
+
+<li>Version 1.06:
+<ul>
+<li>Fixed the lower pane to use the appropriate font size in high DPI mode.
+</ul>
+
+<li>Version 1.05:
+<ul>
+<li>Added 'Display Encrypted Data In Lower Pane' option.
+</ul>
+
+<li>Version 1.00 - First release.
+</ul>
+
+
+<p>
+<h4 class="utilsubject">Decryption Modes</h4>
+You can use this tool to decrypt DPAPI-encrypted data in 2 different modes: 
+<ul>
+<li>Decrypt data of the current system and user - In this mode you don't need to provide the logon password of the user or any other information, but you may need to run DataProtectionDecryptor as administrator.
+<li>Decrypt data of another system or another user on your current system - In this mode you have to provide the path of Registry files and the Protect folders of Windows, and you may also need to provide the logon password of the user if the password was used to decrypt the data. 
+</ul>
+
+<p>
+<h4 class="utilsubject">Using DataProtectionDecryptor</h4>
+After you run DataProtectionDecryptor.exe, the 'DPAPI Decryption Options' window is displayed. You can also open this window by pressing F9. 
+<br>
+Here's the instructions for using the 'DPAPI Decryption Options' window:
+<ul>
+<li>Choose the 'Decryption Mode'. If the DPAPI data was encrypted on your own computer with your current user, choose the 'Decrypt DPAPI data from current system and current user' option.
+If you want to decrypt DPAPI data created on another system stored on external drive, choose the 'Decrypt DPAPI data from external drive or another user' option.
+<li>If you selected the external drive decryption mode: Choose the root folder of your external drive, click the 'Automatic Fill' button and the other fields (Protect Folders, Registry Hives Folder) will be filled for you. 
+You can also manually fill these fields with the correct folders. If the DPAPI data was encrypted with the logon password, you have to enter this password in the 'Windows Login Password' field.
+If the Windows profile was used with Microsoft account, you have to provide a random password generated for your Microsoft account instead of the
+actual password. You can get this random password with the <a href="https://www.nirsoft.net/utils/microsoft_account_dpapi_password.html" target="MadPassExt">MadPassExt tool</a>.
+
+<li>In the DPAPI data section, you can choose one of the following options:
+<ul>
+<li><span class="special2">Decrypt DPAPI data stored in the specified file or files:</span> If you choose this option, you can specify any file that contains the DPAPI encrypted data as binary data or as text.
+Examples for files that you can specify: Windows Registry hives (ntuser.dat, SOFTWARE file in C:\windows\system32\config), .reg files exported from the Registry, Windows Credentials files, 
+Wireless network key files (stored in C:\ProgramData\Microsoft\Wlansvc\Profiles\Interfaces ), cookies and passwords file of Chrome Web browser.
+
+<li><span class="special2">Decrypt DPAPI data from the specified string:</span>
+If you choose this option, you should type or paste the sequence of DPAPI bytes in the DPAPI data text-box. For example:
+<br>01 00 00 00 D0 8C 9D DF 01 15 D1 11 8C 7A 00 C0 4F C2 97 EB....
+<br>01,00,00,00,D0,8C,9D,DF,01,15,D1,11,8C,7A,00,C0,4F,C2,97,EB...
+<br>01000000D08C9DDF0115D1118C7A00C04FC297EB...
+<br>
+You can also paste the text from .reg file of Windows that contains the DPAPI encrypted data.
+
+</ul>
+
+<li>Optional Entropy: You should use this option only if the DPAPI data is encrypted with additional key. 
+You can specify the key in hexadecimal format (e.g: 2A 3D B8 C9...) , as ANSI string or as Unicode string. 
+
+
+</ul>
+
+<p>
+After filling all needed fields in the 'DPAPI Decryption Options' window, press the 'Ok' button and DataProtectionDecryptor will start decrypting the DPAPI and display the result on the main window.
+
+
+<p>
+<h4 class="utilsubject">The Main Window</h4>
+The main window displays the result of the DPAPI decryption. In the upper pane table, a new line is added for every DPAPI data block. When selecting an item in the upper pane, the lower pane
+displays the decrypted data in hex-dump format. 
+
+<p>
+<h4 class="utilsubject">Upper Pane Columns Description</h4>
+
+<ul>
+<li><span class="special2">Decryption Result:</span>
+Result of the decryption process (Succeeded or Failed).
+
+<li><span class="special2">Decrypted Size:</span>
+Size of the decrypted data block (bytes).
+
+<li><span class="special2">Encrypted Size:</span>
+Size of the encrypted data block (bytes).
+
+<li><span class="special2">Description:</span>
+Description stored inside the DPAPI data block (might be empty)
+
+<li><span class="special2">Hash Algorithm:</span>
+Hash algorithm that was used in the encryption process of the DPAPI block (SHA1 or SHA512).
+
+<li><span class="special2">Crypt Algorithm:</span>
+Crypt algorithm that was used in the encryption process of the DPAPI block (3DES or AES256).
+
+<li><span class="special2">Key Encrypted With:</span>
+Specifies whether the key file is encrypted with a system key (Stored in the Registry) or with the user SID+password.
+
+<li><span class="special2">Key File Guid:</span>
+Specifies the Guid of the key file that was used for encryption.
+
+<li><span class="special2">Key File Hash Algorithm:</span>
+Hash algorithm that was used in the encryption process of the key file.
+
+<li><span class="special2">Key File Crypt Algorithm:</span>
+Crypt algorithm that was used in the encryption process of the key file.
+
+<li><span class="special2">Key Filename:</span>
+Specifies the key filename that was used for encryption (Located in the 'Protect' folder).
+
+<li><span class="special2">Data Filename:</span>
+Specifies the filename that contain the DPAPI encrypted data.
+
+
+</ul>
+
+
+<p>
+<h4 class="utilsubject">What to do when DPAPI decryption fails...</h4>
+<ul>
+<li>If you try to decrypt DPAPI data on your current running system, try to run DataProtectionDecryptor as administrator by pressing Ctrl+F11.
+If the decryption still fails, you can also try to turn on the following option: 'Try to decrypt the data by executing code inside lsass.exe process (Requires elevation)'.
+For using this option on 64-bit systems, you must use the 64-bit version of DataProtectionDecryptor.
+
+<li>If you try to decrypt DPAPI data on external drive: 
+<ul>
+<li>Verify that all folders specified in the 'DPAPI Decryption Options' window are correct and you have read permission for these folders.
+<li>if the 'Key Encrypted With' value is 'User SID+Login Password', verify that you type the correct login password of the user on the external system. 
+<li>If the profile on the external drive was used with Microsoft account, you have to get the random DPAPI password generated for your 
+Microsoft account with the <a href="https://www.nirsoft.net/utils/microsoft_account_dpapi_password.html" target="MadPassExt">MadPassExt tool</a>,
+and then put this password in the 'Windows Login Password' field.
+
+</ul>
+
+</ul>
+
+
+
+<p>
+<h4 class="utilsubject">Translating DataProtectionDecryptor to other languages</h4>
+In order to translate DataProtectionDecryptor to other language, follow the instructions below:
+<ol>
+<li>Run DataProtectionDecryptor with /savelangfile parameter:
+<br>
+DataProtectionDecryptor.exe /savelangfile
+<br>
+A file named DataProtectionDecryptor_lng.ini will be created in the folder of DataProtectionDecryptor utility.
+<li>Open the created language file in Notepad or in any other text editor. 
+<li>Translate all string entries to the desired language.
+Optionally, you can also add your name and/or a link to your Web site. 
+(TranslatorName and TranslatorURL values) If you add this information, it'll be 
+used in the 'About' window. 
+ 
+<li>After you finish the translation, Run DataProtectionDecryptor, and all translated 
+strings will be loaded from the language file.
+<br>If you want to run DataProtectionDecryptor without the translation, simply rename the language file, or move 
+it to another folder. 
+
+</ol>
+
+
+
+
+<p>
+<h4 class="utilsubject">License</h4>
+This utility is released as freeware. 
+You are allowed to freely distribute this utility via floppy disk, CD-ROM, 
+Internet, or in any other way, as long as you don't charge anything for this and you don't
+sell it or distribute it as a part of commercial product.  
+If you distribute this utility, you must include all files in
+the distribution package, without any modification !
+
+
+
+
+
+<p>
+<h4 class="utilsubject">Disclaimer</h4>
+The software is provided &quot;AS IS&quot; without any warranty, either expressed or implied,
+including, but not limited to, the implied warranties of merchantability and fitness
+for a particular purpose. The author will not be liable for any special, incidental,
+consequential or indirect damages due to loss of data or any other reason. 
+
+<p>
+<h4 class="utilsubject">Feedback</h4>
+If you have any problem, suggestion, comment, or you found a bug in my utility, 
+you can send a message to <a href="mailto:nirsofer@yahoo.com">nirsofer@yahoo.com</a>
+
+
+
+
+
+
+<p>
+
+<table border="0" cellpadding="10" width="100%">
+<tr><td align="center">
+<a class="downloadline" href="/toolsdownload/dataprotectiondecryptor.zip">Download DataProtectionDecryptor (32-bit)</a>
+
+<tr><td align="center">
+<a class="downloadline" href="/toolsdownload/dataprotectiondecryptor-x64.zip">Download DataProtectionDecryptor (64-bit)</a>
+
+
+</table>
+
+
+
+
+<table>
+<tr><td>&nbsp;
+</table>
+
+
+
+
+
+<table>
+<tr>
+<td>
+&nbsp;
+
+</table>
+
+
+
+<p>
+
+DataProtectionDecryptor is also available in other languages. In order to change the language of 
+DataProtectionDecryptor, download the appropriate language zip file, extract the 'dataprotectiondecryptor_lng.ini', 
+and put it in the same folder that you Installed DataProtectionDecryptor utility.
+<p/>
+<table class="mytable1"><tr class="utiltableheader">
+<th>Language</th><th>Translated By</th><th>Date</th><th>Version</th></tr>
+
+<tr><td><a href="trans/dataprotectiondecryptor_dutch.zip">Dutch</a></td><td>Jan Verheijen</td><td>30/11/2023</td><td>1.13</td></tr>
+
+<tr><td><a href="trans/dataprotectiondecryptor_french.zip">French</a></td><td>Largo</td><td>07/07/2018</td><td>1.06</td></tr>
+
+<tr><td><a href="trans/dataprotectiondecryptor_german.zip">German</a></td><td>
+<a href="https://www.wintotal.de/nirsoft-uebersetzungen/" target="trans">«Latino» auf WinTotal</a></td><td>29/11/2023</td><td>1.13</td></tr>
+
+<tr><td><a href="trans/dataprotectiondecryptor_greek.zip">Greek</a></td><td>
+<a href="http://www.geogeo.gr" target="trans">geogeo.gr</a></td><td>05/01/2018</td><td>1.05</td></tr>
+
+<tr><td><a href="trans/dataprotectiondecryptor_hungarian.zip">Hungarian</a></td><td>Timinoun</td><td>12/12/2022</td><td>1.11</td></tr>
+
+<tr><td><a href="trans/dataprotectiondecryptor_italian.zip">Italian</a></td><td>R.B.</td><td>03/01/2022</td><td>1.11</td></tr>
+
+<tr><td><a href="trans/dataprotectiondecryptor_persian.zip">Persian</a></td><td>
+<a href="https://zendegiyesabz.com/" target="trans">ZendegiyeSabz</a></td><td>05/12/2023</td><td>1.13</td></tr>
+
+<tr><td><a href="trans/dataprotectiondecryptor_romanian.zip">Romanian</a></td><td>
+<a href="http://midimaniacs.no-ip.org" target="trans">Jaff (Oprea Nicolae)</a></td><td>28/12/2018</td><td>1.06</td></tr>
+
+<tr><td><a href="trans/dataprotectiondecryptor_russian.zip">Russian</a></td><td>Dmitry Yerokhin</td><td>13/11/2023</td><td>1.11</td></tr>
+
+<tr><td><a href="trans/dataprotectiondecryptor_schinese.zip">Simplified Chinese</a></td><td>
+<a href="http://dickmoore.cn" target="trans">DickMoore</a></td><td>08/01/2022</td><td>1.11</td></tr>
+
+<tr><td><a href="trans/dataprotectiondecryptor_schinese1.zip">Simplified Chinese</a></td><td>
+<a href="https://pcahora.com" target="trans">Guike</a></td><td>23/07/2020</td><td>1.10</td></tr>
+
+<tr><td><a href="trans/dataprotectiondecryptor_slovak.zip">Slovak</a></td><td>František Fico</td><td>13/12/2023</td><td>1.13</td></tr>
+
+<tr><td><a href="trans/dataprotectiondecryptor_tchinese.zip">Traditional Chinese</a></td><td>
+<a href="https://zhtwnet.com" target="trans">Danfong Hsieh</a></td><td>20/11/2023</td><td>1.12</td></tr>
+
+<tr><td><a href="trans/dataprotectiondecryptor_turkish.zip">Turkish</a></td><td>
+<a href="https://harbee.blogspot.com/" target="trans">HARUN ARI</a></td><td>29/11/2023</td><td>1.13</td></tr>
+
+</table>
+<p/>
+
+
+<p>
+
+
+
+
+</td>
+
+<td width="10">&nbsp;&nbsp;</td>
+</tr>
+
+</table>
+
+<p>
+</td>
+
+
+
+
+</tr>
+
+</table>
+
+
+</body>
+
+
+</html>
